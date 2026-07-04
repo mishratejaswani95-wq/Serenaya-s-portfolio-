@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Room | Serenaya</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<!--================ NAVBAR ================-->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+Serenaya
+</div>
+
+<ul>
+
+<li><a href="index.html">🌷 About</a></li>
+
+<li><a href="art.html">🎨 Art Studio</a></li>
+
+<li><a class="active" href="music.html">🎵 Music Room</a></li>
+
+<li><a href="design.html">💡 Workshop</a></li>
+
+<li><a href="writing.html">📖 Library</a></li>
+
+<li><a href="animation.html">🎬 Animation</a></li>
+
+<li><a href="youtube.html">📺 YouTube</a></li>
+
+<li><a href="contact.html">✉ Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="music-hero">
+
+<img src="images/tulip-left.png" class="corner left">
+
+<img src="images/tulip-right.png" class="corner right">
+
+<h1>Music Room</h1>
+
+<p>
+
+Music is another language through which I express emotions, stories, and imagination.
+Here you'll find my singing, instrumental performances, original compositions,
+and musical journey.
+
+</p>
+
+</section>
+
+<!--================ FEATURED MUSIC ================-->
+
+<section class="featured-song">
+
+<div class="paper">
+
+<h2>Featured Performance</h2>
+
+<div class="music-player">
+
+<div class="album-art">
+
+<img src="music/featured.jpg" alt="Album Cover">
+
+</div>
+
+<div class="player-info">
+
+<h3>Whisper of Spring</h3>
+
+<p>Original Composition</p>
+
+</div>
+
+<div class="progress-container">
+
+<span class="current-time">0:00</span>
+
+<div class="progress-bar">
+
+<div class="progress"></div>
+
+</div>
+
+<span class="duration">3:45</span>
+
+</div>
+
+<div class="player-controls">
+
+<button class="previous">⏮</button>
+
+<button class="play">▶</button>
+
+<button class="next">⏭</button>
+
+</div>
+
+<div class="volume-container">
+
+<span>🔊</span>
+
+<input
+type="range"
+class="volume-slider"
+min="0"
+max="100"
+value="70">
+
+</div>
+
+<audio id="featured-audio">
+
+<source src="music/song.mp3" type="audio/mpeg">
+
+</audio>
+
+</div>
+
+<p>
+
+Write the story behind this piece.
+What inspired it?
+How long did it take?
+What emotions were you trying to express?
+
+</p>
+
+</div>
+
+</section>
+
+<!--================ MY MUSIC ================-->
+
+<section class="music-gallery">
+
+<h2>My Music</h2>
+
+<div class="music-grid">
+
+<div class="music-card">
+
+<img src="music/song1.jpg">
+
+<h3>Song Title</h3>
+
+<p>Cover Song</p>
+
+</div>
+
+<div class="music-card">
+
+<img src="music/song2.jpg">
+
+<h3>Song Title</h3>
+
+<p>Original Composition</p>
+
+</div>
+
+<div class="music-card">
+
+<img src="music/song3.jpg">
+
+<h3>Song Title</h3>
+
+<p>Piano Performance</p>
+
+</div>
+
+<div class="music-card">
+
+<img src="music/song4.jpg">
+
+<h3>Song Title</h3>
+
+<p>Instrumental</p>
+
+</div>
+
+<div class="music-card">
+
+<img src="music/song5.jpg">
+
+<h3>Song Title</h3>
+
+<p>Acoustic Cover</p>
+
+</div>
+
+<div class="music-card">
+
+<img src="music/song6.jpg">
+
+<h3>Song Title</h3>
+
+<p>Choir Performance</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ INSTRUMENTS ================-->
+
+<section class="instruments">
+
+<h2>Instruments & Skills</h2>
+
+<div class="skill-grid">
+
+<div class="card">
+
+<img src="icons/piano.png">
+
+<h3>Piano</h3>
+
+</div>
+
+<div class="card">
+
+<img src="icons/guitar.png">
+
+<h3>Guitar</h3>
+
+</div>
+
+<div class="card">
+
+<img src="icons/ukulele.png">
+
+<h3>Ukulele</h3>
+
+</div>
+
+<div class="card">
+
+<img src="icons/vocals.png">
+
+<h3>Vocals</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ INSPIRATIONS ================-->
+
+<section class="playlist">
+
+<div class="paper">
+
+<h2>Musical Inspirations</h2>
+
+<ul>
+
+<li>Artist / Composer</li>
+
+<li>Artist / Composer</li>
+
+<li>Artist / Composer</li>
+
+<li>Artist / Composer</li>
+
+<li>Artist / Composer</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!--================ QUOTE ================-->
+
+<section class="quote">
+
+<p>
+
+"Music expresses what words cannot, and silence alone cannot hold."
+
+</p>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+<p>
+
+© 2026 Serenaya
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html> 
