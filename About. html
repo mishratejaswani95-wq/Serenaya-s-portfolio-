@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Serenaya's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lora:wght@400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Cursor Glow -->
+    <div class="cursor"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Serenaya
+            </div>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="art.html">
+                        <i class="fa-solid fa-palette"></i>
+                        Art
+                    </a>
+                </li>
+
+                <li>
+                    <a href="music.html">
+                        <i class="fa-solid fa-music"></i>
+                        Music
+                    </a>
+                </li>
+
+                <li>
+                    <a href="design.html">
+                        <i class="fa-solid fa-pencil-ruler"></i>
+                        Design
+                    </a>
+                </li>
+
+                <li>
+                    <a href="writing.html">
+                        <i class="fa-solid fa-feather"></i>
+                        Writing
+                    </a>
+                </li>
+
+                <li>
+                    <a href="animation.html">
+                        <i class="fa-solid fa-film"></i>
+                        Animation
+                    </a>
+                </li>
+
+                <li>
+                    <a href="youtube.html">
+                        <i class="fa-brands fa-youtube"></i>
+                        YouTube
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <img src="images/tulip-left.png" class="corner left" alt="">
+        <img src="images/tulip-right.png" class="corner right" alt="">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Serenaya</h1>
+
+            <h2>
+                Artist • Designer • Musician • Creator
+            </h2>
+
+            <p>
+
+                I explore creativity across art, design, music, science,
+                literature, animation and education. Every project I create
+                reflects my curiosity, imagination, and love for beautiful,
+                meaningful work.
+
+            </p>
+
+            <div class="buttons">
+
+                <a href="#about" class="btn">
+                    Explore
+                </a>
+
+                <a href="resume.pdf" class="btn outline">
+                    Resume
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.png"
+                alt="Profile Picture">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <div class="paper">
+
+            <p>
+
+                Hello! I'm Serenaya, a multidisciplinary creator with a passion
+                for art, music, design, writing, science, and lifelong learning.
+                I enjoy bringing ideas to life through creativity and thoughtful
+                design while constantly exploring new fields and developing new
+                skills.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-grid">
+
+            <div class="card">
+                <img src="icons/art.png">
+                <h3>Art</h3>
+            </div>
+
+            <div class="card">
+                <img src="icons/music.png">
+                <h3>Music</h3>
+            </div>
+
+            <div class="card">
+                <img src="icons/design.png">
+                <h3>Design</h3>
+            </div>
+
+            <div class="card">
+                <img src="icons/writing.png">
+                <h3>Writing</h3>
+            </div>
+
+            <div class="card">
+                <img src="icons/science.png">
+                <h3>Science</h3>
+            </div>
+
+            <div class="card">
+                <img src="icons/animation.png">
+                <h3>Animation</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= RESUME ================= -->
+
+    <section class="resume">
+
+        <h2>Resume</h2>
+
+        <div class="timeline">
+
+            <div class="item">
+
+                <h3>Education</h3>
+
+                <p>
+
+                    Add your education here.
+
+                </p>
+
+            </div>
+
+            <div class="item">
+
+                <h3>Experience</h3>
+
+                <p>
+
+                    Add your teaching, freelance work and other experience.
+
+                </p>
+
+            </div>
+
+            <div class="item">
+
+                <h3>Goals</h3>
+
+                <p>
+
+                    Product Design • Innovation • Art • Music • Entrepreneurship
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section class="achievements">
+
+        <h2>Achievements</h2>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                Achievement One
+            </div>
+
+            <div class="achievement-card">
+                Achievement Two
+            </div>
+
+            <div class="achievement-card">
+                Achievement Three
+            </div>
+
+            <div class="achievement-card">
+                Achievement Four
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            "Creating beauty where imagination meets curiosity."
+
+        </p>
+
+        <p>
+
+            © 2026 Serenaya
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
