@@ -214,7 +214,7 @@ p{
 
     width:52%;
 
-    animation:fadeUp 1.3s;
+    animation: nameAppear .9s ease;
 
 }
 
@@ -845,4 +845,33 @@ h2{
 
 }
 
+} 
+body{
+    opacity:0;
+    transition:opacity .4s ease;
+}
+
+body.loaded{
+    opacity:1;
+}
+
+.navbar.scrolled{
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.btn{
+    position:relative;
+    overflow:hidden;
+}
+
+.ripple{
+    ...
+}
+
+@keyframes ripple{
+    ...
+}
+
+@keyframes nameAppear{
+    ...
 } 
